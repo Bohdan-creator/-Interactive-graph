@@ -1,0 +1,497 @@
+#page1.gwd-play-animation .gwd-motion-path-191m-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["-148px", "-216px", "150.67px", "-236px", "449.33px", "-256px", "748px", "-276px"], "startTimeMs": 0, "endTimeMs": 500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["748px", "-276px", "1021.53px", "-298.08px", "1225.03px", "-358.52px", "1412px", "-428px"], "startTimeMs": 500, "endTimeMs": 1000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["1412px", "-428px", "1658.26px", "-511.33px", "1749.92px", "-606.14px", "1787px", "-705px"], "startTimeMs": 1000, "endTimeMs": 1500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["1787px", "-705px", "1836.27px", "-958.38px", "1639.87px", "-901.2px", "1495.54px", "-915.79px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["1495.54px", "-915.79px", "1287.69px", "-930.53px", "1079.85px", "-945.26px", "872px", "-960px"], "startTimeMs": 2000, "endTimeMs": 2500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["872px", "-960px", "760px", "-969px", "652px", "-982px", "540px", "-991px"], "startTimeMs": 2500, "endTimeMs": 3000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["540px", "-991px", "153.13px", "-992.5px", "397.46px", "-922.61px", "436px", "-843px"], "startTimeMs": 3000, "endTimeMs": 3500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["436px", "-843px", "527px", "-776px", "650px", "-673px", "741px", "-606px"], "startTimeMs": 3500, "endTimeMs": 4000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["741px", "-606px", "911.84px", "-438.21px", "1281.87px", "-317.06px", "1484px", "-287px"], "startTimeMs": 4000, "endTimeMs": 4500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["1484px", "-287px", "1816.89px", "-280.54px", "1903.75px", "-366.3px", "1908px", "-483px"], "startTimeMs": 4500, "endTimeMs": 5000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["1908px", "-483px", "1928.03px", "-678.19px", "1872.22px", "-763.08px", "1824px", "-859px"], "startTimeMs": 5000, "endTimeMs": 5500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["1824px", "-859px", "1777.37px", "-970.03px", "1483.24px", "-928.11px", "932px", "-931.4px"], "startTimeMs": 5500, "endTimeMs": 6000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["932px", "-931.4px", "870.67px", "-944.6px", "777.33px", "-941.8px", "716px", "-955px"], "startTimeMs": 6000, "endTimeMs": 6500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["716px", "-955px", "716px", "-955px", "716px", "-955px", "716px", "-955px"], "startTimeMs": 6500, "endTimeMs": 7000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["716px", "-955px", "569.9px", "-849.09px", "546.08px", "-649.23px", "516px", "-537px"], "startTimeMs": 7000, "endTimeMs": 7500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["516px", "-537px", "571.6px", "-325.29px", "666.14px", "-404.46px", "748px", "-389px"], "startTimeMs": 7500, "endTimeMs": 8000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["748px", "-389px", "993.33px", "-355.67px", "1484px", "-289px", "1484px", "-289px"], "startTimeMs": 8000, "endTimeMs": 8500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["1484px", "-289px", "1604px", "-294.33px", "1724px", "-299.67px", "1844px", "-305px"], "startTimeMs": 8500, "endTimeMs": 9500, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 9.5s linear 0s 1 normal forwards running gwd-motion-path-191m-keys-x;
+  transform: translate3d(-148px, 0px, 0px);
+}
+@keyframes gwd-motion-path-191m-keys-x {
+  0% {
+    transform: translate3d(-148px, 0px, 0px);
+  }
+  5.2674% {
+    transform: translate3d(748px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3288, 0.3378, 0.6602, 0.6731);
+  }
+  10.5253% {
+    transform: translate3d(1412px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3195, 0.344, 0.635, 0.7032);
+  }
+  14.4758% {
+    transform: translate3d(1723.95px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2894, 0.3713, 0.6072, 0.7348);
+  }
+  15.7926% {
+    transform: translate3d(1787px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.6358, -0.5085, 0.8423, 0.508);
+  }
+  18.2937% {
+    transform: translate3d(1730.36px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3406, 0.3255, 0.6662, 0.6675);
+  }
+  21.0505% {
+    transform: translate3d(1495.54px, 0px, 0px);
+  }
+  26.3179% {
+    transform: translate3d(872px, 0px, 0px);
+  }
+  31.5758% {
+    transform: translate3d(540px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3333, 0.3331, 0.6608, 0.673);
+  }
+  34.3421% {
+    transform: translate3d(337.86px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3011, 1.2073, 0.3922, 3.4784);
+  }
+  34.8726% {
+    transform: translate3d(331.58px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3437, 0.3158, 0.6214, 0.7254);
+  }
+  36.8432% {
+    transform: translate3d(436px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3304, 0.3363, 0.6696, 0.6637);
+  }
+  42.1011% {
+    transform: translate3d(741px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3474, 0.3188, 0.6769, 0.6568);
+  }
+  42.8968% {
+    transform: translate3d(836.67px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3491, 0.3165, 0.6758, 0.6584);
+  }
+  47.3684% {
+    transform: translate3d(1484px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3316, 0.3345, 0.6549, 0.6794);
+  }
+  50.7884% {
+    transform: translate3d(1815.63px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2403, 0.3632, 0.5284, 0.9136);
+  }
+  52.5032% {
+    transform: translate3d(1907.17px, 0px, 0px);
+  }
+  52.6358% {
+    transform: translate3d(1908px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.55, -0.3171, 0.8281, 0.633);
+  }
+  57.3726% {
+    transform: translate3d(1841.9px, 0px, 0px);
+  }
+  57.8937% {
+    transform: translate3d(1824px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4049, 0.2249, 0.6973, 0.6597);
+  }
+  58.5568% {
+    transform: translate3d(1731.88px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3346, 0.3321, 0.6665, 0.6668);
+  }
+  63.1611% {
+    transform: translate3d(932px, 0px, 0px);
+  }
+  68.4189% {
+    transform: translate3d(716px, 0px, 0px);
+  }
+  73.6863% {
+    transform: translate3d(716px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2403, 0.4341, 0.5412, 0.7922);
+  }
+  78.0253% {
+    transform: translate3d(535.34px, 0px, 0px);
+  }
+  78.9442% {
+    transform: translate3d(516px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4615, 0.2093, 0.7671, 0.5549);
+  }
+  81.9758% {
+    transform: translate3d(613.64px, 0px, 0px);
+  }
+  84.2116% {
+    transform: translate3d(748px, 0px, 0px);
+  }
+  89.4695% {
+    transform: translate3d(1484px, 0px, 0px);
+  }
+  100% {
+    transform: translate3d(1844px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-191m-anim-y {
+  animation: 9.5s linear 0s 1 normal forwards running gwd-motion-path-191m-keys-y;
+  transform: translate3d(0px, -216px, 0px);
+}
+@keyframes gwd-motion-path-191m-keys-y {
+  0% {
+    transform: translate3d(0px, -216px, 0px);
+  }
+  5.2674% {
+    transform: translate3d(0px, -276px, 0px);
+    animation-timing-function: cubic-bezier(0.4506, 0.1689, 0.7474, 0.6147);
+  }
+  10.5253% {
+    transform: translate3d(0px, -428px, 0px);
+    animation-timing-function: cubic-bezier(0.4161, 0.2468, 0.7501, 0.5858);
+  }
+  15.1295% {
+    transform: translate3d(0px, -651.04px, 0px);
+    animation-timing-function: cubic-bezier(0.3422, 0.3243, 0.6741, 0.6594);
+  }
+  15.7926% {
+    transform: translate3d(0px, -705px, 0px);
+    animation-timing-function: cubic-bezier(0.334, 0.3299, 0.6413, 0.6974);
+  }
+  17.7632% {
+    transform: translate3d(0px, -867.53px, 0px);
+    animation-timing-function: cubic-bezier(0.2621, 0.3954, 0.5771, 0.7704);
+  }
+  18.5495% {
+    transform: translate3d(0px, -901.36px, 0px);
+    animation-timing-function: cubic-bezier(0.2519, 1.1119, 0.5324, 0.5073);
+  }
+  21.0505% {
+    transform: translate3d(0px, -915.79px, 0px);
+  }
+  26.3179% {
+    transform: translate3d(0px, -960px, 0px);
+  }
+  31.5758% {
+    transform: translate3d(0px, -991px, 0px);
+    animation-timing-function: cubic-bezier(0.649, -0.0299, 0.9135, 0.3822);
+  }
+  34.4747% {
+    transform: translate3d(0px, -968.81px, 0px);
+  }
+  34.6074% {
+    transform: translate3d(0px, -960.69px, 0px);
+  }
+  34.74% {
+    transform: translate3d(0px, -951.28px, 0px);
+    animation-timing-function: cubic-bezier(0.3034, 0.3611, 0.715, 0.6177);
+  }
+  36.8432% {
+    transform: translate3d(0px, -843px, 0px);
+    animation-timing-function: cubic-bezier(0.3382, 0.3284, 0.6618, 0.6716);
+  }
+  42.1011% {
+    transform: translate3d(0px, -606px, 0px);
+    animation-timing-function: cubic-bezier(0.2394, 0.4023, 0.5857, 0.7749);
+  }
+  46.8379% {
+    transform: translate3d(0px, -301.92px, 0px);
+    animation-timing-function: cubic-bezier(0.308, 0.3568, 0.6336, 0.7022);
+  }
+  47.3684% {
+    transform: translate3d(0px, -287px, 0px);
+    animation-timing-function: cubic-bezier(0.6506, -0.0467, 0.822, 0.4701);
+  }
+  52.2379% {
+    transform: translate3d(0px, -444.31px, 0px);
+  }
+  52.6358% {
+    transform: translate3d(0px, -483px, 0px);
+    animation-timing-function: cubic-bezier(0.3269, 0.3405, 0.6489, 0.6838);
+  }
+  57.7611% {
+    transform: translate3d(0px, -850.24px, 0px);
+  }
+  57.8937% {
+    transform: translate3d(0px, -859px, 0px);
+    animation-timing-function: cubic-bezier(0.1264, 1.1027, 0.2106, 1.1419);
+  }
+  61.9768% {
+    transform: translate3d(0px, -932.02px, 0px);
+  }
+  63.1611% {
+    transform: translate3d(0px, -931.4px, 0px);
+    animation-timing-function: cubic-bezier(0.2166, 0.49, 0.7834, 0.51);
+  }
+  68.4189% {
+    transform: translate3d(0px, -955px, 0px);
+  }
+  73.6863% {
+    transform: translate3d(0px, -955px, 0px);
+    animation-timing-function: cubic-bezier(0.3571, 0.3084, 0.6862, 0.648);
+  }
+  74.6053% {
+    transform: translate3d(0px, -898.52px, 0px);
+    animation-timing-function: cubic-bezier(0.3588, 0.3051, 0.6731, 0.6618);
+  }
+  78.9442% {
+    transform: translate3d(0px, -537px, 0px);
+    animation-timing-function: cubic-bezier(0.3177, 0.3413, 0.6255, 0.7198);
+  }
+  81.4453% {
+    transform: translate3d(0px, -405.86px, 0px);
+    animation-timing-function: cubic-bezier(0.1923, 0.7564, 0.2541, 1.7104);
+  }
+  83.5484% {
+    transform: translate3d(0px, -390.76px, 0px);
+    animation-timing-function: cubic-bezier(0.5851, -0.7761, 0.8697, 0.5165);
+  }
+  84.2116% {
+    transform: translate3d(0px, -389px, 0px);
+  }
+  89.4695% {
+    transform: translate3d(0px, -289px, 0px);
+  }
+  100% {
+    transform: translate3d(0px, -305px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-1k4c-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing":false, "sections":[ {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 0, "endTimeMs": 500.004, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 500.004, "endTimeMs": 999.999, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 999.999, "endTimeMs": 1500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 1500, "endTimeMs": 2000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 2000, "endTimeMs": 2500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 2500, "endTimeMs": 3000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 3000, "endTimeMs": 3500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 3500, "endTimeMs": 4000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 4000, "endTimeMs": 4500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 4500, "endTimeMs": 5000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 5000, "endTimeMs": 5500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 5500, "endTimeMs": 6000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 6000, "endTimeMs": 6500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 6500, "endTimeMs": 7000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 7000, "endTimeMs": 7500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 7500, "endTimeMs": 8000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "0px", "0px", "0px", "0px", "0px", "0px"], "startTimeMs": 8000, "endTimeMs": 8500, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["0px", "0px", "-595.25px", "277.35px", "-694.43px", "791.71px", "-844px", "1282px"], "startTimeMs": 8500, "endTimeMs": 9500, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation: 9.5s linear 0s 1 normal forwards running gwd-motion-path-1k4c-keys-x;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1k4c-keys-x {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  5.26% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  10.53% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  15.79% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  21.05% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  26.32% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  31.58% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  36.84% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  42.11% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  47.37% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  52.63% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  57.89% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  63.16% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  68.42% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  73.68% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  78.95% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  84.21% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  89.47% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2772, 0.3841, 0.5762, 0.7692);
+  }
+  96.32% {
+    transform: translate3d(-674.57px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3008, 0.3655, 0.6587, 0.6742);
+  }
+  100% {
+    transform: translate3d(-844px, 0px, 0px);
+  }
+}
+#page1.gwd-play-animation .gwd-motion-path-1k4c-anim-y {
+  animation: 9.5s linear 0s 1 normal forwards running gwd-motion-path-1k4c-keys-y;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1k4c-keys-y {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  5.26% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  10.53% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  15.79% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  21.05% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  26.32% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  31.58% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  36.84% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  42.11% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  47.37% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  52.63% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  57.89% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  63.16% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  68.42% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  73.68% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  78.95% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  84.21% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  89.47% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4071, 0.247, 0.7116, 0.629);
+  }
+  95.53% {
+    transform: translate3d(0px, 640.05px, 0px);
+    animation-timing-function: cubic-bezier(0.3397, 0.3269, 0.6681, 0.6653);
+  }
+  100% {
+    transform: translate3d(0px, 1282px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}

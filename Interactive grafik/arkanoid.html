@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html>
+
+<style>
+        #arkanoid{
+                background-color: whitesmoke;
+              width:700px;
+              height:700px;
+              
+        }
+        #circle{
+                background-color: black;
+        }
+        .clock{
+	position: relative;
+	width: 100px;
+	height: 100px;
+    overflow: hidden;
+    z-index: 300;
+	border-radius: 250px;
+	border: 10px solid #111;
+	background-color: #fff;
+    top: 16%;
+    left: 70%!important;
+    transform: translate(-50%, -50%);
+}
+
+.clock_r{
+    transform:rotate(270deg);
+    width:130px;
+    height:130px;
+    left:0px;
+    top:70px;
+    transition: 0.5s;
+}
+
+
+.clock:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background:  linear-gradient(285deg, rgba(0, 0, 0, 0.175) 50%, rgba(0, 0, 0, 0.1) 50%);
+}
+
+.clock:before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.num{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.num:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 5px;
+	height: 6px;
+	background-color: black;
+}
+
+.num1{
+	transform: rotate(30deg);
+}
+.num1 div{
+	transform: rotate(-30deg);
+}
+
+.num2{
+	transform: rotate(60deg);
+}
+.num2 div{
+	transform: rotate(-60deg);
+}
+
+.num3{
+	transform: rotate(90deg);
+}
+.num3 div{
+	transform: rotate(-90deg);
+}
+
+.num4{
+	transform: rotate(120deg);
+}
+.num4 div{
+	transform: rotate(-120deg);
+}
+
+.num5{
+	transform: rotate(150deg);
+}
+.num5 div{
+	transform: rotate(-150deg);
+}
+
+.num6{
+	transform: rotate(180deg);
+}
+.num6 div{
+	transform: rotate(-180deg);
+}
+
+.num7{
+	transform: rotate(210deg);
+}
+.num7 div{
+	transform: rotate(-210deg);
+}
+
+.num8{
+	transform: rotate(240deg);
+}
+.num8 div{
+	transform: rotate(-240deg);
+}
+
+.num9{
+	transform: rotate(270deg);
+}
+.num9 div{
+	transform: rotate(-270deg);
+}
+
+.num10{
+	transform: rotate(300deg);
+}
+.num10 div{
+	transform: rotate(-300deg);
+}
+
+.num11{
+	transform: rotate(330deg);
+}
+.num11 div{
+	transform: rotate(-330deg);
+}
+
+.hand{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.hand div{
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #000;
+}
+
+.sec{
+	width: 1px;
+	height: 40%;
+}
+
+.min{
+	height: 38%;
+	width: 4px;
+	border-radius: 2px;
+}
+
+.hour{
+	height: 28%;
+	width: 8px;
+	border-radius: 4px;
+}
+#s{
+        right: 900px;
+        top:-200px!important;
+}
+#p{
+        right: 830px;
+        top:-245px!important;
+
+}
+</style>
+
+
+<head>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+        
+        <canvas id="arkanoid" width="700px" height="700px"></canvas>
+
+
+
+        <div id="draggable2" class="clock">
+           <div class="num num1">
+             <div>1</div>
+           </div>
+           <div class="num num2">
+             <div>2</div>
+           </div>
+           <div class="num num3">
+             <div>3</div>
+           </div>
+           <div class="num num4">
+             <div>4</div>
+           </div>
+           <div class="num num5">
+             <div>5</div>
+           </div>
+           <div class="num num6">
+             <div>6</div>
+           </div>
+           <div class="num num7">
+             <div>7</div>
+           </div>
+           <div class="num num8">
+             <div>8</div>
+           </div>
+           <div class="num num9">
+             <div>9</div>
+           </div>
+           <div class="num num10">
+             <div>10</div>
+           </div>
+           <div class="num num11">
+             <div>11</div>
+           </div>
+           <div class="num num12">
+             <div>12</div>
+           </div>
+         
+           <div class="hand" id="sec">
+             <div class="sec"></div>
+           </div>
+           <div class="hand" id="min">
+             <div class="min"></div>
+           </div>
+           <div class="hand" id="hour">
+             <div class="hour"></div>
+           </div>
+         </div>
+         <div class="hand" id="sec">
+ </div>
+ <button class="btn btn-success" id="s">Start</button>
+ <button class="btn btn-warning" id="p">Pause</button>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="arkanoid_s.js"></script>
+</html>

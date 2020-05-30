@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+
+
+<body class="body">
+
+<div class="main">
+
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
+
+
+<div class="baner"> 
+
+<img src="baner.jpg"height="150" width="1200">
+<button class="layout" style="background-color: #dc3545;">Turn on drag/grop</button>
+</div>
+<div class="wrapper">
+	<div class="tabs">
+		<span class="tab">Tab 1</span>
+		<span class="tab">Tab 2</span>
+        <span class="tab">Tab 3</span>
+        <span class="tab">Tab 4</span>
+       
+  </div>
+  <div class="zoom_add">
+    <span  class="add_tab">&#10009;</span>
+</div>   
+    <div id="overlay">
+      <div class="content_tab">
+  <form class="Form" >
+      <label for="Name">Please enter name:</label>          
+      <input placeholder="Enter name tab" id="name_tab" type="text">
+  </form>
+  <button class="Add_Tab">Add</button>
+  <button class="Cancel">Cancel</button>
+
+</div>
+</div>
+
+
+<div class="middle">
+
+<div class="sidenav" id="sortable"> 
+ <a class="closebtn">&#9932;</a>
+ 
+<div class="calendar" id="datepicker"></div>
+
+  <div id="object2"  draggable="true">
+    <p class="head_2">Awards</p>
+    <img class="award"src="award.png" width="100px" height="100px">
+    <img class="award"src="award_1.png" width="100px" height="100px">
+  </div>
+   
+  <div id="object3" draggable="true" >
+      <p class="head_2">Interesting links</p>
+      <ul>
+        <li><a href="https://www.w3schools.com/">Study</a></li>
+      </ul>
+  </div>
+
+</div>
+
+<div class="baner_l">  
+  <span class="openbtn" style='font-size:40px;'>&#9781;</span>
+</div>
+
+<div class="left_col">
+<div class="menu">
+
+<div><p class="other">Menu</p></div>
+
+<div><p class="title">Master</p></div>
+
+<div class="menu_selected">
+  <div class="link"><a>Lorem 1</a></div>
+   <div class="link"><a>Lorem 2</a></div>
+   <div class="sub_link"><a class="tag"href="" > Sub_Lorem 1 </a> </div>
+   <div class="sub_link"><a a class="tag" href="" > Sub_Lorem 2 </a> </div>
+   <div class="sub_link"><a class="tag" href="" > sub_sub_Lorem 2 </a> </div>
+   <div class="link"><a class="tag" href="" > Lorem 3 </a> </div>   
+</div>
+
+</div>
+
+<div class="other_menu">
+   
+<div><p class="other">Other Menu</p></div>
+
+<div><p class="title">Master</p></div>
+    <div class="menu_selected">
+        <div class="link"><a>Lorem 1</a></div>
+         <div class="link"><a>Lorem 2</a></div>
+         <div class="sub_link"><a class="tag"href="" > Sub_Lorem 1 </a> </div>
+         <div class="sub_link"><a a class="tag" href="" > Sub_Lorem 2 </a> </div>
+         <div class="sub_link"><a class="tag" href="" > sub_sub_Lorem 2 </a> </div>
+         <div class="link"><a class="tag" href="" > Lorem 3 </a> </div> 
+
+</div>
+</div>
+</div>
+<div class="tab_content">
+<div class="tab_item" id="news_page">
+    <div class="article">
+        <div class="article_title">
+            Lorem ipsum dolor sit amet
+        </div>
+        <div class="article_summary">
+            <div>Summary:</div>
+            Summary about lorem ipsum  Etiam imperdiet arcu est, in facilisis lacus. Nunc faucibus orci nec diam ullamcorper vitae hendrerit enim scelerisque. Fusce odio nulla, aliquet in auctor ac, congue quis turpis. Nunc et ipsum sem. Donec mollis erat neque. Donec ultricies lectus quis lacus sagittis non ultrices odio auctor. Vivamus erat nunc, mollis et posuere non, elementum tempor mi.
+        </div>
+        <div class="article_content">
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet arcu est, in facilisis lacus. Nunc faucibus orci nec diam ullamcorper vitae hendrerit enim scelerisque. Fusce odio nulla, aliquet in auctor ac, congue quis turpis. Nunc et ipsum sem. Donec mollis erat neque. Donec ultricies lectus quis lacus sagittis non ultrices odio auctor. Vivamus erat nunc, mollis et posuere non, elementum tempor mi.</p>
+        <p class="p2">
+        Some lorem ipsum tekst
+        <ul>
+            <li> Duis vitae est turpis. </li> 
+             <li> Praesent elit lacus, </li> 
+         </ul>	
+        </p>
+        <ol>
+ <li> Duis vitae est turpis. </li> 
+ <li> Praesent elit lacus, </li> 
+ <li> Pellentesque sed mollis sit amet, </li> 
+ <li> Auctor id ligula. Sed nec sodales velit. </li>
+     <ul>
+         <li> Duis vitae est turpis. </li> 
+         <li> Praesent elit lacus, </li> 
+     </ul>
+ <li> Pellentesque sed mollis sit amet, </li> 
+ <li> Auctor id ligula. Sed nec sodales velit. </li>
+
+ 
+</ol></p>
+        <p class="p3"></p>
+        </div>
+    </div>
+    </div>
+    <div class="tab_item">
+
+        <div class="modal">
+            <div class="content">
+        <form class="Form" method="post" action="...">
+            <label for="Name" id="st">Please enter name:</label>
+            <input type="text" id="Name" name="userName" value="" />
+        </br>
+            <label for="SurName" id="st">Please enter surname :</label>
+            <input type="text" id="SurName" name="userName" value="" />
+    </br>
+            <label for="Year" id="st">Please enter years:</label>
+            <input type="text" id="Year" name="userName" value="" />
+</br>
+             
+
+        </form>
+        <button class="save">Save</button>
+        <button class="close">Close</button>
+</div>
+</div>
+        <button class="add">Add</button>
+</br>
+</br>
+        <input type="checkbox" id="switch">
+         <span class="back">	&#x21b6;	</span>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Year</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>Bohdan</td>
+                  <td>Kucher</td>
+                  <td>2000</td>
+                </tr>
+            </tbody>
+        </table>
+    
+       
+    </div>
+
+    <div class="tab_item">
+    
+        <div class="controlgroup">
+              <fieldset> 
+                <legend>Rental Car</legend>
+            <label>Województwo:</label>
+<input placeholder="Enter region"type="text" class="wojewodztwa" list="wojewodztwa">
+<datalist id="wojewodztwa">
+    <option value="dolnośląskie">
+    <option value="kujawsko-pomorskie">
+    <option value="lubelskie">
+    <option value="lubuskie">
+    <option value="łódzkie">
+    <option value="małopolskie">
+    <option value="mazowieckie">
+    <option value="opolskie">
+    <option value="podkarpackie">
+    <option value="podlaskie">
+    <option value="pomorskie">
+    <option value="śląskie">
+    <option value="świętokrzyskie">
+    <option value="warmińsko-mazurskie">
+    <option value="wielkopolskie">
+    <option value="Zachodniopomorskie">
+</datalist>
+
+<div class="wrong_date">
+  <p class="dateo" >&#10004;</p> 
+ <p class="date" >&#10008;</p>  
+  <p class="wrong" >Wrong Date</p>
+</div>
+
+<p>Date of first registration: <input placeholder="Date of registration" id="datepicker"></input></p>
+<p>Date of the last registration: <input placeholder="Date of the last registration" id="datepickerlast"></input></p>
+
+
+
+<button class="Save_pojazd">Save</button>
+              </fieldset>
+        </div>
+
+        </div>
+
+        <div class="tab_item">
+        
+            <label>Where are you from:</label>
+            <input type="text" name="display" id="display" value="" list="list-display" />
+            <datalist id="list-display">
+                <option value="dolnośląskie">
+                <option value="kujawsko-pomorskie">
+                <option value="lubelskie">
+                <option value="lubuskie">
+                <option value="łódzkie">
+                <option value="małopolskie">
+                <option value="mazowieckie">
+                <option value="opolskie">
+                <option value="podkarpackie">
+                <option value="podlaskie">
+                <option value="pomorskie">
+                <option value="śląskie">
+                <option value="świętokrzyskie">
+                <option value="warmińsko-mazurskie">
+                <option value="wielkopolskie">
+                <option value="Zachodniopomorskie">
+            </datalist>
+           
+            <p>
+                <label for="spinner">Select a value:</label>
+                <input id="spinner" name="value">
+              </p>
+              
+
+              
+              <h3>Drag the slider to display the current value.</h3>
+              
+              <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <p>Value: <span id="demo"></span></p>
+              </div>
+
+
+            <p><label for="response">Your response:</label><input type="text" id="response" title="We ask for your response only for statistical purposes."></p>
+              
+            <button class="check_modal">Check</button>
+            
+            
+            <div class="modal_check">
+                <div class="content_check">
+                    <label for="response">Your response:</label>
+                </br>
+                <p id="response_check"></p>
+                <lable for="region">Region : </lable>
+                    <p id="region"></p>
+                    
+                <label for="slider_value">Slider Value  :</label>
+                
+                <p id="slider_value"></p>
+
+                    <label for="age">Age : </label>
+                    <p id="age"></p>
+                    
+                    <button class="close_check">Close</button>
+    </div>
+    </div>
+
+        </div>
+       
+
+</div>
+<div id="right_col">
+    <!-- -->
+    <div class="module">
+    <div class="module_title">Module</div>
+      <div class="module_content">
+        Some content build form database:
+        for example: statistics or other.
+      </div>
+    </div>
+    <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+          <p>
+          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+          mauris vel est.
+          </p>
+          <p>
+          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+
+      <div class="widgets">
+   <ul id="sortable_widgets">
+     <li class="list_weather">
+    <div id="m-booked-bl-simple-80326"> 
+      <div class="booked-wzs-160-110 weather-customize" style="background-color:#137AE9;width:160px;" id="width1"> 
+        <div class="booked-wzs-160-110_in"> <a target="_blank" class="booked-wzs-top-160-110" href="https://www.booked.net/"><img src="//s.bookcdn.com/images/letter/s5.gif" alt="booked.net" /></a>
+           <div class="booked-wzs-160-data"> 
+             <div class="booked-wzs-160-left-img wrz-06"></div> 
+             <div class="booked-wzs-160-right"> 
+               <div class="booked-wzs-day-deck">
+                  <div class="booked-wzs-day-val"> 
+                    <div class="booked-wzs-day-number"><span class="plus">+</span>13</div> 
+                    <div class="booked-wzs-day-dergee"> <div class="booked-wzs-day-dergee-val">&deg;</div> 
+                    <div class="booked-wzs-day-dergee-name">C</div> </div> </div> <div class="booked-wzs-day"> 
+                      <div class="booked-wzs-day-d"><span class="plus">+</span>13&deg;</div> <div class="booked-wzs-day-n"><span class="plus">+</span>6&deg;</div> 
+                    </div> </div> <div class="booked-wzs-160-info"> <div class="booked-wzs-160-city smolest">Czestochowa</div> <div class="booked-wzs-160-date">Sunday, 19</div>
+                   </div> </div> </div> <a target="_blank" href="https://www.booked.net/weather/czestochowa-33131" class="booked-wzs-bottom-160-110"> 
+                    <div class="booked-wzs-center"><span class="booked-wzs-bottom-l"> See 7-Day Forecast</span></div> </a> </div> </div> </div>
+     </li>
+             
+     <li class="list">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+     
+     </li>
+
+
+            </ul>
+                  </div>
+
+</div>
+
+<div class="sidenav_right" id="sortable_right">
+  <div id="draggable1" class="News"  draggable="true" >
+    <p class="head_2">News</p>
+  <ul>
+    <li class="news">This List Item will scroll infintely</li>
+    <li class="news">And this one will follow it</li>
+    <li class="news">Finally when it goes out of screen, it will queue again at the end</li>
+</ul>
+</div>
+<div id="draggable2" class="clock"  draggable="true"   >
+  <div class="num num1">
+    <div>1</div>
+  </div>
+  <div class="num num2">
+    <div>2</div>
+  </div>
+  <div class="num num3">
+    <div>3</div>
+  </div>
+  <div class="num num4">
+    <div>4</div>
+  </div>
+  <div class="num num5">
+    <div>5</div>
+  </div>
+  <div class="num num6">
+    <div>6</div>
+  </div>
+  <div class="num num7">
+    <div>7</div>
+  </div>
+  <div class="num num8">
+    <div>8</div>
+  </div>
+  <div class="num num9">
+    <div>9</div>
+  </div>
+  <div class="num num10">
+    <div>10</div>
+  </div>
+  <div class="num num11">
+    <div>11</div>
+  </div>
+  <div class="num num12">
+    <div>12</div>
+  </div>
+
+  <div class="hand" id="sec">
+    <div class="sec"></div>
+  </div>
+  <div class="hand" id="min">
+    <div class="min"></div>
+  </div>
+  <div class="hand" id="hour">
+    <div class="hour"></div>
+  </div>
+</div>
+
+<div id="draggable3" class="Best_Grade" draggable="true"  >
+   
+  <p class="head_2">Best Grade For Course </p>
+  <ul>
+    <li  class="best">
+      #1 Basketball Championship
+    </li>
+    <li  class="best">
+      #1 Basketball Tour
+    </li>
+  </ul>
+</div>
+
+
+</div>
+
+</div>
+   
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="ticker.js"></script>
+<script src="script.js"></script>
+</div>
+
+  <script>
+    $(function(){
+        $("#accordion").accordion();
+    });
+</script>
+<script>
+$( function() {
+  $( "#sortable_widgets" ).sortable();
+} );
+</script>
+
+<script>
+$(".tab_item").not(":first").hide();
+$(".wrapper .tab").click(function() {
+  $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+  $(".tab_item").hide().eq($(this).index()).show()
+}).eq(0).addClass("active");
+
+</script>
+
+<script>
+  $( function() {
+    $( ".controlgroup" ).controlgroup()
+   
+  } );
+  </script>
+
+
+<script>
+
+    $(".add").click(function(){
+        $(".Form").show();
+
+
+    });
+
+
+</script>
+
+<script>
+    var wrap = $('#wrapper'),
+     btn = $('.add'),
+     modal = $(' .modal, .content');
+
+     btn.on('click', function() {
+  modal.fadeIn();
+
+  $(".save").click(function(){
+      $(".modal").hide();
+  });
+  $(".close").click(function(){
+      $(".modal").hide();
+  });
+
+});
+</script>
+
+<script>
+   $(".close_check").click(function(){
+      $(".modal_check").hide();
+  });
+</script>
+
+<script>
+    $( function() {
+      $( "#datepicker" ).datepicker();
+      $( "#datepickerlast" ).datepicker();
+      $(".datepicker").datepicker();
+    } );
+    </script>
+  
+<script>
+$( function() {
+    var spinner = $( "#spinner" ).spinner();
+});
+ </script>
+
+
+ <script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+  </script>
+
+
+<script>
+  $(function(){
+    $('#webTicker').webTicker();
+  });
+</script>
+
+<script>
+  $("#display").on('input',function(e){
+ var region =  $(this).val();
+ $("#region").html(region);
+});  
+</script>
+
+
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("demo");
+  var slider_value = document.getElementById("slider_value");
+  output.innerHTML = slider.value;
+  var slider_value;
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+
+ 
+  </script>
+
+
+<script>
+  $( function() {
+
+
+
+var wrap = $('#tab_item'),
+     btn = $('.check_modal'),
+     modal = $(' .modal_check, .content_check');
+
+     var value ;
+
+
+     btn.on('click', function() {
+ 
+      var output = document.getElementById("demo");
+      $("#slider_value").html(output);
+
+        var age = $("#spinner").val();
+var response = $("#response").val();
+
+        $("#age").html(age);
+        $("#response_check").html(response);
+  modal.fadeIn();
+     });
+  });
+
+</script>
+
+ 
+<script type="text/javascript"> 
+var css_file=document.createElement("link"); 
+css_file.setAttribute("rel","stylesheet"); 
+css_file.setAttribute("type","text/css"); 
+css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-160.css?v=0.0.1'); 
+document.getElementsByTagName("head")[0].appendChild(css_file); 
+function setWidgetData(data) 
+{ if(typeof(data) != 'undefined' && data.results.length > 0) 
+{ for(var i = 0; i < data.results.length; ++i) 
+{ var objMainBlock = document.getElementById('m-booked-bl-simple-80326'); 
+if(objMainBlock !== null) 
+{ var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code;
+ if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } 
+ </script> <script type="text/javascript" charset="UTF-8" src="https://widgets.booked.net/weather/info?action=get_weather_info&ver=6&cityID=33131&type=1&scode=124&ltid=3458&domid=w209&anc_id=2377&cmetric=1&wlangID=1&color=137AE9&wwidth=160&header_color=ffffff&text_color=333333&link_color=08488D&border_form=1&footer_color=ffffff&footer_text_color=333333&transparent=0">
+ </script>
+
+
+
+  </html>
